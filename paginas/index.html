@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicio - Actividades Deportivas y Culturales</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Actividades Deportivas y Culturales</h1>
+    <p>Explora las diferentes actividades que promueven el desarrollo físico, mental y artístico.</p>
+  </header>
+
+  <main class="container">
+    <section id="menu">
+      <h2>Menú Principal</h2>
+      <p>Selecciona el tipo de actividades que deseas conocer:</p>
+
+      <div class="menu-opciones">
+        <a class="boton" href="deportes1.html">🏅 Actividades Deportivas</a>
+        <a class="boton" href="cultura1.html">🎨 Actividades Culturales</a>
+      </div>
+
+      <p>En cada sección encontrarás información, imágenes y enlaces sobre las distintas actividades.</p>
+      <p>¡Descubre la importancia de equilibrar el cuerpo y la mente a través del deporte y la cultura!</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Proyecto escolar: Actividades Deportivas y Culturales</p>
+  </footer>
+  .menu-opciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.boton {
+  display: inline-block;
+  background-color: var(--accent);
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.boton:hover {
+  background-color: #205f5c;
+  transform: scale(1.05);
+}
+</body>
+</html>
